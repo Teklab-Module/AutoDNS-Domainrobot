@@ -1,0 +1,118 @@
+.noactive {
+    background-color: #fbd1b2 !important;
+}
+
+#clear i {
+    display: block;
+    width: 150px;
+}
+
+#clearrow td:nth-child(1), #test td:nth-child(1) {
+    width: 174px !important;
+}
+
+#clearrow td:nth-child(2), #test td:nth-child(2) {
+    width: auto !important;
+}
+
+#clearrow td:nth-child(3), #zonelist td:nth-child(4){
+    width: 150px !important;
+}
+
+#clearrow td:nth-child(5) {
+    width: auto !important;
+}
+
+#test td:nth-child(3), #test td:nth-child(4) {
+    width: 250px !important;
+}
+
+#test td:nth-child(5){
+    width: 500px !important;
+}
+
+.btn-save {
+    color:#555a60;
+    background-color:#FEFEFF;
+    height: 30px;
+    margin-left: 2px;
+    border-color: transparent;
+}
+.btn-save:hover {
+    color: #2b2f33;
+    border-color: #bfc8d1;
+    background-color: #f3f3f9;
+}
+
+.right{
+    float: right;
+}
+
+
+.mb10 { margin-bottom: 10px; !important; }
+.mt10 { margin-top: 10px !important; }
+.mt20 { margin-top: 20px !important; }
+.mt30 { margin-top: 30px !important; }
+
+.pad15t {
+    padding-top: 15px !important;
+}
+
+.color-deepskyblue {
+    color: deepskyblue;
+}
+
+.number::-webkit-outer-spin-button,
+.number::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Firefox */
+.number  {
+    -moz-appearance:textfield;
+}
+
+
+.table-responsive {
+    min-height: .01%;
+    overflow-x: auto;
+}
+
+@media screen and (max-width: 767px) {
+    .table-responsive {
+        width: 100%;
+        margin-bottom: 15px;
+        overflow-y: hidden;
+        -ms-overflow-style: -ms-autohiding-scrollbar;
+        border: 1px solid #ddd;
+    }
+    .table-responsive > .table {
+        margin-bottom: 0;
+    }
+    .table-responsive > .table > thead > tr > th,
+    .table-responsive > .table > tbody > tr > th,
+    .table-responsive > .table > tfoot > tr > th,
+    .table-responsive > .table > thead > tr > td,
+    .table-responsive > .table > tbody > tr > td,
+    .table-responsive > .table > tfoot > tr > td {
+        white-space: nowrap;
+    }
+}
+
+#divspecialoffer, #divprice, #divpricetotal {
+    display: none;
+}
+
+.row-active {
+    background-color: #ceffce !important;
+}
+
+.row-none-active {
+    background-color: #ffd0d0 !important;
+}
+
+.scroll-sidebar {
+    min-height: 899px;
+    width: auto;
+}
